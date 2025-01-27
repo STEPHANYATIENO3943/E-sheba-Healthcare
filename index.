@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-sheba  | Healthcare Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div>E-sheba</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Application</a>
+            <a href="#">History</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Find & Search Your<br> <strong style="color: blue;" >Favourite</strong> Doctor</h1>
+        <p>Connect with top specialists and get reliable medical advice online.</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Doctor's Name">
+            <input type="text" placeholder="Location">
+            <button onclick="performSearch()">Search</button>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div>
+            <h3>24/7</h3>
+            <p>Online Support</p>
+        </div>
+        <div>
+            <h3>100+</h3>
+            <p>Doctors</p>
+        </div>
+        <div>
+            <h3>1M+</h3>
+            <p>Happy Patients</p>
+        </div>
+    </section>
+
+    <section class="specialists">
+        <h2> <strong style="color: black;"></strong>Our Consulting Specialists </h2>
+        <div class="card">
+            <h3>Covid-19 Test</h3>
+            <p>Get reliable testing services at your location.</p>
+        </div>
+        <div class="card">
+            <h3>Heart & Lung </h3>
+            <p>Consult with cardiology and pulmonary experts.</p>
+        </div>
+        <div class="card">
+            <h3>Supplement</h3>
+            <p>Get advice on the best supplements for your health.</p>
+        </div>
+        <div class="card">
+            <h3>Mental Health</h3>
+            <p>Connect with professional counselors and thera                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               pists.</p>
+        </div> 
+    </section>
+
+    <section class="marketing">
+        <h2>Why You Choose Us?</h2>
+        <p>Quality services</p>
+        <p>Adequate facilities and machines</p>
+        <p>Highly skilled healthcare professionals</p>
+
+    </section>
+
+    <section class="testimonials">
+        <h2>What <strong style="color: blue;">Our Member's </strong><br>Saying About Us</h2>
+        <p>"E-sheba helped me find the right specialist in no time! Highly recommend!"</p>
+        <p>- Jane Doe</p>
+    </section>
+ 
+    <section>
+        <h2>The Future<br> of Quality Health</h1>
+        <p>More patients</p>
+        <p>Advanced technology</p>
+        <p>Better data</p>
+        <p>Innovation driven by competition</p>
+    </section>
+
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <input type="email" placeholder="Enter your email">
+        <button onclick="subscribeNewsletter()">Subscribe</button>
+    </section>
+
+    <section class="gallery">
+        <img src="https://www.vecteezy.com/free-photos/black-male-doctor" alt="Gallery image 1" class="styled-image">
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Steph. All Rights Reserved.</p>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+    </footer>
+
+    <script>
+        function performSearch() {
+            alert('Search functionality is not implemented yet.');
+        }
+
+        function subscribeNewsletter() {
+            alert('Thank you for subscribing to our newsletter!');
+        }
+    </script>
+</body>
+</html>
