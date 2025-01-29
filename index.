@@ -7,12 +7,12 @@
 <body>
     <header>
         <div>E-sheba</div>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Application</a>
-            <a href="#">History</a>
-        </nav>
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#clients">Our Clients</a></li>  
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
     </header>
 
     <section class="hero">
